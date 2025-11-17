@@ -1,0 +1,8 @@
+log.html
+output.xml
+report.html
+selenium-screenshot-*.png
+geckodriver*.log
+__pycache__/
+.venv/
+poetry.lock
