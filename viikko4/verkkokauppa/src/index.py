@@ -26,6 +26,7 @@ def main():
 
     kauppa.tilimaksu("Arto Vihavainen", "3425-1652")
 
+
     # kirjanpito
     for tapahtuma in kirjanpito.tapahtumat:
         print(tapahtuma)
