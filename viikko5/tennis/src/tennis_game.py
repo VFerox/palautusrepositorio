@@ -24,16 +24,15 @@ class TennisGame:
 
     
     def get_score_when_advantage(self):
-        if self.m_score1 >= 4 or self.m_score2 >= 4:
-            minus_result = self.m_score1 - self.m_score2
-            if minus_result == 1:
-                return "Advantage player1"
-            elif minus_result == -1:
-                return "Advantage player2"
-            elif minus_result >= 2:
-                return "Win for player1"
-            else:
-                return "Win for player2"
+        minus_result = self.m_score1 - self.m_score2
+        if minus_result == 1:
+            return "Advantage player1"
+        elif minus_result == -1:
+            return "Advantage player2"
+        elif minus_result >= 2:
+            return "Win for player1"
+        else:
+            return "Win for player2"
 
             
 
